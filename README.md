@@ -1,7 +1,8 @@
-## Cdd 
-bash shell command which can help to go to previous directory easily
+## Cdd  
+cdd means "cd 뒤"
+bash shell command which can help to go to previous directory easily  
 
-## Usage
+## Usage  
 
 ````sh
 user@pc: ~/user/cdd/project/dir/path $ cdd
@@ -11,7 +12,7 @@ go to ./../../../
 user@pc: ~/user/ $
 ````
 
-## Setup
+## Setup  
 
 ````sh
  $ setup.sh
