@@ -1,5 +1,5 @@
 ## Cdd  
-cdd means "cd 뒤"
+cdd means "cd 뒤"  
 bash shell command which can help to go to previous directory easily  
 
 ## Usage  
