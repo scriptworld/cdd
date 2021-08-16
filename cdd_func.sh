@@ -15,7 +15,7 @@ function __cdd_cd_path() {
 }
 
 function __cdd_prev_path() {
-        local DIR="./"
+        local DIR
         local CNT=$(__cdd_nr_prev ${1})
         while true
         do
