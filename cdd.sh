@@ -1,7 +1,7 @@
 #! /bin/bash
 # Cdd is bash shell command which can help to go to previous directory easily
 # Author : Ji-Hun Kim (jihuun.k@gmail.com)
-# Version : v0.1.1
+# Version : v0.2.1
 
 source cdd_func.sh
 
