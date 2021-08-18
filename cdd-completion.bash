@@ -1,6 +1,3 @@
-#!/bin/bash
-source cdd_func.sh
-
 _cdd() {
 	[[ ${COMP_CWORD} -eq 1 ]] || return 0
 	[[ ${COMP_WORDS[1]} =~ ^[0-9]+$ ]] \
