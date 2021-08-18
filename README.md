@@ -1,21 +1,21 @@
 ## CDD  
-cdd(means cd뒤) is a bash shell command which can help to navigate parent directory easily.  
+`cdd`(means cd뒤) is a bash shell command which can help to navigate parent directory easily.  
 
 ## Usage  
 
-- cdd [number]
+- `cdd` with argument number
 ![cdd1](docs/imgs/cdd_cdd8.gif)
 
-- cdd without argument
+- `cdd` without argument
 ![cdd1](docs/imgs/cdd_cdd.gif)
 
-- auto completion with number
+- Auto completion with number
 ![cdd1](docs/imgs/cdd_comp4.gif)
-The path will be auto completed by `TAB` key. The argument number will be converted number of `../` combination.  
+The path will be auto completed by `TAB` key from a number. The argument will be converted by number of `../` combination.  
 
-- auto completion without argument
+- Auto completion without argument
 ![cdd1](docs/imgs/cdd_comp_single.gif)
-If you press `TAB` after command + `space`, `../` will be poped up then you can navigate from the parent directory. Double `TAB` also show directories which is in the directory.  
+If you press `TAB` after command + `space`, then `../` will be poped up then you can navigate from the parent directory. Double `TAB` also show directories which is in the directory.  
 
 
 ## Setup  
@@ -29,7 +29,6 @@ If you press `TAB` after command + `space`, `../` will be poped up then you can 
 - Manually
 
 1. Generate a symbolic link in your $PATH
-
 ```
 ln -s $CUR_PATH/cdd.sh $SET_DIR/cdd
 ```
@@ -38,7 +37,6 @@ ln -s $CUR_PATH/cdd.sh $SET_DIR/cdd
 > Note that symlink name shoule be cdd (not cdd.sh)  
 
 2. Append follow lines in your rc file
-
 ```
 # for script cdd
 source $SET_DIR/cdd
@@ -46,6 +44,6 @@ source $SET_DIR/cdd
         && source $CUR_PATH/cdd-completion.bash
 ```
 
-## TODOs
+## TODO
 
-Working on another shells (currently bash only).  
+- Working on another shells (currently bash only).  
